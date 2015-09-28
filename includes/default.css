@@ -1,0 +1,161 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+}
+
+#blackjack {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px double blue;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#name {
+    float: none;
+    height: 50px;
+    color: blue;
+    margin-top: 150px;
+    font-size: x-large;
+}
+
+#game {
+    background-color: #0A701A;
+    float: left;
+    width: 64%;
+    border: 1px solid blue;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+h2 {
+    width: 75%;
+    text-align: center;
+    text-shadow: 1px 1px blue;
+    margin-left: auto;
+    margin-right: auto;
+    border: double 3px blue;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+#container {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 150px;
+}
+
+form {
+    float: left;
+    width: 98%;
+    text-align: center;
+    margin-left: 6px;
+    margin-bottom: 25px;
+}
+
+#com {
+    float: right;
+    width: 33%;
+    height: 400px;
+    text-align: center;
+    padding-right: 6px;
+}
+
+#message {
+    height: 180px;
+    text-shadow: 1px 1px blue;
+}
+
+#score {
+    height: 180px;
+    border: 1px solid blue;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    background-color: cornflowerblue;
+    color: white;
+    margin-bottom: 35px;
+} 
+
+span {
+    display: inline-block;
+    line-height: 180px;
+    vertical-align: middle;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 1px 1px blue;
+}
+
+input[type=submit] {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px 11px !important;
+    font-size: 21px !important;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    text-shadow: 1px 1px blue;
+    color: #ffffff;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border: 1px solid blue;
+    cursor: pointer;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+input:disabled {
+    background-color: #B2CAF6;
+}
+
+input[type=text] {
+    height: 40px;
+    width: 350px;
+    font-size: x-large;
+    padding-left: 10px;
+    border: 1px solid blue;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+#sorry {
+    float: none;
+    margin-top: 100px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow: 1px 1px blue;
+}
+
+#finish {
+    float: none;
+    width: 370px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 15px;
+    border: 1px solid blue;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    background-color: #D0DFFA;
+    text-shadow: 1px 1px blue;
+}
+
+#manual {
+    color: blue;
+}
+
+#rules {
+    margin-top: 100px;
+    text-align: right;
+    padding-right: 70px;
+}
